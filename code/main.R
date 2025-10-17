@@ -40,7 +40,7 @@ dat.price <- read.csv(file = "../data/price_estimates.csv", na.strings = "")
 
 
 # booking_request
-dat.booking <- read.csv(file = "../data/booking_requests.csv")
+dat.booking <- read.csv(file = "../data/booking_requests.csv", na.strings = "")
 
 
 ###############################
